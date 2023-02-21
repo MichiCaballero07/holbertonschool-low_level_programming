@@ -11,9 +11,9 @@ int main(void)
 	int num;
 	char hexa:
 	
-	for (num = 0; num <= 9; n++)
+	for (num = 0; num < 10; n++)
 	putchar((num % 10) + '0');
-	for (hexa = 'a'; hexa <= 'f': hexa++)
+	for (hexa = 'a'; hexa < 'f': hexa++)
 	putchar(hexa);
 	putchar('\n');
 	return (0);
