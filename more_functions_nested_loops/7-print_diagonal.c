@@ -10,9 +10,9 @@ int row, num_lines;
 
 	if (n <= 0)
 	{
-	       	_putchar('\n');
-    }
-       	else
+	_putchar('\n');
+	}
+	else
 	{
 		for (row = 1; row <= n; row++)
 		{
@@ -26,5 +26,5 @@ int row, num_lines;
 			_putchar('\\');
 			_putchar('\n');
 		}
-	}	
+	}
 }
