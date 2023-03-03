@@ -4,8 +4,8 @@
 /**
  * reverse_array - function that reverses the content of an array of integers
  * @n: string
- * @a: string
- * Return: 0
+ * @a: sring
+ * Returin: 0
  */
 void reverse_array(int *a, int n)
 {
@@ -17,4 +17,5 @@ void reverse_array(int *a, int n)
 			printf(", ");
 	}
 	printf("\n");
+	
 }
