@@ -8,18 +8,20 @@
  * Return: always 1 if less than two arg var supplied otherwise 0.
  */
 int main(int argc, char **argv)
-{
-	int a = 0, b = 0;
-
-	if (argc > 2)
 	{
-		a = atoi(argv[1]);
-		b = atoi(argv[2]);
-		printf("%d\n", a * b);
-	}
-	else
+
+	 int total;
+
+	if (argc < 2)
 	{
 		printf("Error\n");
+		return (1);
 	}
+
+	total = (int) *argv[1] * (int) *argv[2];
+
+	printf("%d\n", total);
+
 	return (0);
-}
+
+	}
