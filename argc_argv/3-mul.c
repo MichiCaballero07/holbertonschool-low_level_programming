@@ -2,13 +2,15 @@
 #include "main.h"
 
 /**
- * main - function to print multiplication result
- * @argc: number of arguments
- * @argv: arguments supplied
- * Return: always 1 if less than two arg var supplied otherwise 0.
+ * main - Entry point
+ *
+ * @argc: incoming argument
+ * @argv: incoming argument
+ *
+ * Return: Always 0 (Success)
  */
 int main(int argc, char **argv)
-	{
+{
 
 	 int total;
 
@@ -24,4 +26,4 @@ int main(int argc, char **argv)
 
 	return (0);
 
-	}
+}
