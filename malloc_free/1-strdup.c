@@ -25,7 +25,7 @@ char *_strdup(char *str)
 	}
 
 	/* We assign the amount of memory space that we are going to use */
-	duplicate = malloc(len * sizeof(char));
+	duplicate = malloc((len + 1) * sizeof(char));
 
 	/* Returns NULL if insufficient memory was available */
 	if (duplicate == NULL)
