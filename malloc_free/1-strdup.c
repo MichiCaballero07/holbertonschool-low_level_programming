@@ -20,9 +20,7 @@ char *_strdup(char *str)
 
 	/* We get the length of the chain str */
 	while (str[len])
-	{
 		len++;
-	}
 
 	/* We assign the amount of memory space that we are going to use */
 	duplicate = malloc((len + 1) * sizeof(char));
