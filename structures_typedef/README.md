@@ -1,0 +1,2 @@
+
+o. Object-like Macro
