@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/holberton/Documents/holbertonschool-low_level_programming/search_algorithms",
+      "program": "/Users/holberton/Documents/holbertonschool-low_level_programming/search_algorithms/build/Debug/outDebug"
+    }
+  ]
+}
